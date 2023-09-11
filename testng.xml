@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Suite" parallel="false">
+
+    <!-- Define test parameters here, if needed -->
+
+    <test name="Login Test">
+        <classes>
+            <class name="codeGen_TS.LoginTest"/>
+        </classes>
+    </test>
+
+    <!-- Add more test classes here if needed -->
+
+</suite>
